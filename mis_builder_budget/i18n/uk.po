@@ -446,3 +446,73 @@ msgstr "Кількість повідомлень із помилкою дост
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: mis_builder_budget
+#. odoo-python
+#: code:addons/mis_builder_budget/models/mis_budget_abstract.py:0
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account_item__date
+msgid ""
+"Dummy field that adapts searches on date to searches on date_from/date_to."
+msgstr ""
+"Допоміжне поле, яке адаптує пошук за датою до пошуку за date_from/date_to."
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__allow_items_overlap
+msgid "If checked, overlap between budget items is allowed"
+msgstr "Якщо позначено, допускається перекриття елементів бюджету"
+
+#. module: mis_builder_budget
+#: model:ir.model,name:mis_builder_budget.model_mis_budget_abstract
+msgid "MIS Budget (Abstract Base Class)"
+msgstr "Бюджет MIS (абстрактний базовий клас)"
+
+#. module: mis_builder_budget
+#: model:ir.model,name:mis_builder_budget.model_mis_budget_item_abstract
+msgid "MIS Budget Item (Abstract Base Class)"
+msgstr "Елемент бюджету MIS (абстрактний базовий клас)"
+
+#. module: mis_builder_budget
+#: model:ir.model,name:mis_builder_budget.model_mis_budget_by_account_item
+msgid "MIS Budget Item (by Account)"
+msgstr "Елемент бюджету MIS (за рахунком)"
+
+#. module: mis_builder_budget
+#: model:ir.model,name:mis_builder_budget.model_mis_budget_item
+msgid "MIS Budget Item (by KPI)"
+msgstr "Елемент бюджету MIS (за KPI)"
+
+#. module: mis_builder_budget
+#: model:ir.model,name:mis_builder_budget.model_mis_report_instance_period
+msgid "MIS Report Instance Period"
+msgstr "Період екземпляра звіту MIS"
+
+#. module: mis_builder_budget
+#: model:ir.model,name:mis_builder_budget.model_mis_report_kpi_expression
+msgid "MIS Report KPI Expression"
+msgstr "Вираз KPI звіту MIS"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account_item__company_currency_id
+msgid "Utility field to express amount currency"
+msgstr "Допоміжне поле для вираження валюти суми"
+
+#. module: mis_builder_budget
+#: model:ir.model.constraint,message:mis_builder_budget.constraint_mis_budget_by_account_item_credit_debit2
+msgid ""
+"Wrong credit or debit value in budget item! Credit and debit should be "
+"positive."
+msgstr ""
+"Неправильне значення кредиту або дебету в бюджетній статті! Кредит і дебет "
+"мають бути додатними."
+
+#. module: mis_builder_budget
+#: model:ir.model.constraint,message:mis_builder_budget.constraint_mis_budget_by_account_item_credit_debit1
+msgid ""
+"Wrong credit or debit value in budget item! Credit or debit should be zero."
+msgstr ""
+"Неправильне значення кредиту або дебету в бюджетній статті! Кредит або дебет"
+" має дорівнювати нулю."
