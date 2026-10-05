@@ -516,3 +516,21 @@ msgid ""
 msgstr ""
 "Неправильне значення кредиту або дебету в бюджетній статті! Кредит або дебет"
 " має дорівнювати нулю."
+
+#. module: mis_builder_budget
+#. odoo-python
+#: code:addons/mis_builder_budget/models/mis_budget_item_abstract.py:0
+msgid "%(rec_name)s is not within budget %(budget_name)s date range."
+msgstr "%(rec_name)s не входить до діапазону дат бюджету %(budget_name)s."
+
+#. module: mis_builder_budget
+#. odoo-python
+#: code:addons/mis_builder_budget/models/mis_budget_item_abstract.py:0
+msgid "%(rec_name)s overlaps %(res_name)s in budget %(budget_name)s"
+msgstr "%(rec_name)s перекривається з %(res_name)s у бюджеті %(budget_name)s"
+
+#. module: mis_builder_budget
+#. odoo-python
+#: code:addons/mis_builder_budget/models/mis_budget_item_abstract.py:0
+msgid "%s start date must not be after end date"
+msgstr "Дата початку %s не може бути пізнішою за дату завершення"
