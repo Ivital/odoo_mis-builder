@@ -386,3 +386,63 @@ msgstr "Послідовність під-KPI"
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__budget_company_id
+msgid "#Technical field: Budget Company"
+msgstr "#Технічне поле: компанія бюджету"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__allow_items_overlap
+msgid "Allow Items Overlap"
+msgstr "Дозволити перекриття елементів"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_report_instance_period__source_mis_budget_by_account_id
+msgid "Budget by Account"
+msgstr "Бюджет за рахунком"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_needaction
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_needaction
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_has_error
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_has_error
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: mis_builder_budget
+#: model:ir.actions.act_window,name:mis_builder_budget.mis_budget_item_act_window
+msgid "MIS Budget Items (by KPIs)"
+msgstr "Елементи бюджету MIS (за KPI)"
+
+#. module: mis_builder_budget
+#: model:ir.actions.act_window,name:mis_builder_budget.mis_budget_by_account_item_act_window
+msgid "MIS Budget Items (by accounts)"
+msgstr "Елементи бюджету MIS (за рахунками)"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_needaction_counter
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_needaction_counter
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_has_error_counter
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_has_error_counter
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__website_message_ids
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__website_message_ids
+#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
