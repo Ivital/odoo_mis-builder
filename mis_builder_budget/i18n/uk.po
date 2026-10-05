@@ -1,0 +1,230 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__account_id
+msgid "Account"
+msgstr "Рахунок"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__active
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__amount
+msgid "Amount"
+msgstr "Сума"
+
+#. module: mis_builder_budget
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_form_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_search_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_form_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_search_view
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__balance
+msgid "Balance"
+msgstr "Баланс"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__budget_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__budget_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item_abstract__budget_id
+msgid "Budget"
+msgstr "Бюджет"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_report_kpi__budgetable
+msgid "Budgetable"
+msgstr "Можна бюджетувати"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget__state__cancelled
+#: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget_abstract__state__cancelled
+#: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget_by_account__state__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__company_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__company_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__company_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__company_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget__state__confirmed
+#: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget_abstract__state__confirmed
+#: model:ir.model.fields.selection,name:mis_builder_budget.selection__mis_budget_by_account__state__confirmed
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__create_uid
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__create_uid
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__create_uid
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__create_date
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__create_date
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__create_date
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__credit
+msgid "Credit"
+msgstr "Кредит"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__date_range_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__date_range_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__date_range_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__date_range_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__date_range_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item_abstract__date_range_id
+msgid "Date range"
+msgstr "Діапазон дат"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__debit
+msgid "Debit"
+msgstr "Дебет"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__description
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__description
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__display_name
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__display_name
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__display_name
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_follower_ids
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__message_follower_ids
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__date_from
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__date_from
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__date_from
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__date_from
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__date_from
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item_abstract__date_from
+msgid "From"
+msgstr "Від"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__has_message
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__has_message
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_is_follower
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__message_is_follower
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__item_ids
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__item_ids
+msgid "Item"
+msgstr "Елемент"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__seq1
+msgid "KPI Sequence"
+msgstr "Послідовність KPI"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__name
+msgid "Label"
+msgstr "Мітка"
+
+#. module: mis_builder_budget
+#: model:ir.actions.act_window,name:mis_builder_budget.mis_budget_act_window
+#: model:ir.ui.menu,name:mis_builder_budget.mis_budget_menu
+msgid "MIS Budgets (by KPIs)"
+msgstr "Бюджети MIS (за KPI)"
+
+#. module: mis_builder_budget
+#: model:ir.actions.act_window,name:mis_builder_budget.mis_budget_by_account_act_window
+#: model:ir.ui.menu,name:mis_builder_budget.mis_budget_by_account_menu
+msgid "MIS Budgets (by accounts)"
+msgstr "Бюджети MIS (за рахунками)"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_ids
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__message_ids
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__name
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__name
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__name
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_report_instance_period__source
+msgid "Source"
+msgstr "Джерело"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__state
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__state
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__state
+msgid "State"
+msgstr "Стан"
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__date_to
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__date_to
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__date_to
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__date_to
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__date_to
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item_abstract__date_to
+msgid "To"
+msgstr "Кому"
